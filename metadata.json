@@ -1,0 +1,7 @@
+{
+  "name": "Folio — The Daily Expense Diary",
+  "description": "A warm, paper-inspired expense journal where money and daily stories live together.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-serif: 'Newsreader', 'Lora', Georgia, serif;
+    --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: #080D1A;
+    color: #F1F5F9;
+    color-scheme: dark;
+  }
+}
+
+.font-serif {
+  font-family: 'Newsreader', 'Lora', Georgia, serif;
+}
+
+.font-sans {
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+}
+
+/* Blue-Black theme custom styling */
+.blueblack-sheet {
+  background-color: #0D1527;
+  border-color: #1E2B45;
+  box-shadow: 0 8px 32px -4px rgba(2, 6, 23, 0.7), 0 0 0 1px rgba(59, 130, 246, 0.08);
+}
+
+.blueblack-card {
+  background-color: #111C35;
+  border-color: #223354;
+}
+
+.blueblack-subtle {
+  background-color: #0A1020;
+  border-color: #1A263E;
+}
+
+/* Custom dark scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #1E2D4A;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #3B82F6;
+}
